@@ -1,0 +1,6 @@
+#!/bin/bash
+0-current_working_directory
+$pwd
+listhiddenfiles_starting_with_.
+bring_me_home
+(why?)

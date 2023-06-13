@@ -1,0 +1,4 @@
+#!/bin/bash
+$create_first_directory
+$file /tmp/my_first_directory/tmp/my_first_directory/: directory
+why?

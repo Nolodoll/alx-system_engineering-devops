@@ -1,0 +1,4 @@
+#!/bin/bash
+$ls /tmp/my_first_directory/
+$delete_file_named_betty/
+(why?)

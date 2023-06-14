@@ -1,0 +1,7 @@
+$ find/tmp/iamafile'
+if os.path.exists(file_path):
+    # Get the file type
+    print(f"Type of the file 'iamafile': {file_type}")
+else:
+    print("The file 'iamafile' does not exist in the /tmp directory.")
+    (why?)

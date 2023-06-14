@@ -1,0 +1,15 @@
+#!/bin/bash
+current_dir = os.getcwd()
+parent_dir = os.path.dirname(current_dir)
+for file_name in os.listdir(current_dir):
+    if file_name.endswith('.html'):  # Check if the file is an HTML file
+        current_file_path = os.path.join(current_dir, file_name)
+        parent_file_path = os.path.join(parent_dir, file_name)
+       if not os.path.exists(parent_file_path):
+            shutil.copy2(current_file_path, parent_file_path)
+            print(f"Copied '{file_name}' to the parent directory.")
+        else:
+            # Check if the file in the current directory is newer than the one in the parent directory
+            if os.path.getmtime(current_file_path) > os.path.getmtime(parent_file_path):
+                shutil.copy2(current_file_path, parent_file_path)
+                print(f"Updated '{file_name}' in the parent directory.") 

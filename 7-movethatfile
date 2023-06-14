@@ -1,0 +1,5 @@
+#!/bin/bash
+$/move file_betty
+$ ls /tmp/find_file_betty
+$move_to_my_first_directory/
+(why?)

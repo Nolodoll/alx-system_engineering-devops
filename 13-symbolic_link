@@ -1,0 +1,11 @@
+#!/bin/bash
+target_path = '/bin/ls'
+link_name = '__ls__'
+# Check if the target file exists
+if os.path.exists(target_path):
+    # Create the symbolic link
+    os.symlink(target_path, link_name)
+    print(f"Symbolic link created: {link_name} -> {target_path}")
+else:
+    print(f"The target file '{target_path}' does not exist.")
+    (why?)

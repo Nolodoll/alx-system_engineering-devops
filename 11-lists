@@ -1,0 +1,6 @@
+#!/bin/bash
+$/pwd
+$/1s_allfiles_in={current_dir, parent_dir, '/boot']
+# List all files (including hidden ones) in long format
+print()
+(why?)
